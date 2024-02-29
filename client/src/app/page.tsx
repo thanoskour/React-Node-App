@@ -1,11 +1,17 @@
 "use client"; // This is a client component
 import { useState, useEffect } from 'react';
 
+interface House {
+  id: string;
+  name: string;
+  animal: string;
+  houseColours: string;
+  founder: string;
+}
 
-
-function getGradient(coloursString) {
+function getGradient(coloursString:string) {
   const colours = coloursString.split(' and ');
-  const isValidColour = (colour) => /^#[0-9A-F]{6}$/i.test(colour) || CSS.supports("color", colour);
+  const isValidColour = (colour:string) => /^#[0-9A-F]{6}$/i.test(colour) || CSS.supports("color", colour);
 
   if (colours.every(isValidColour)) {
     return `linear-gradient(to right, ${colours[0]}, ${colours[1]})`;
@@ -16,7 +22,7 @@ function getGradient(coloursString) {
 
 
 export default function Home() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<House[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
