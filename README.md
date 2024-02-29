@@ -14,7 +14,6 @@ This application is a full-stack solution that presents a directory of houses fr
 
 Before running this project, make sure you have Node.js and npm installed. You can check their presence in your system by running:
 
-In Terminal write:
 node -v
 npm -v
 
@@ -33,43 +32,33 @@ cd React-Node-App
 - Navigate to the backend directory and install dependencies:
 
 
-In Terminal write:
 
-cd server
-
-
-npm install
+  cd server
+  npm install
 
 ### Frontend Setup
 
 - Navigate to the frontend directory in a separate terminal window and install dependencies:
 
-In Terminal write:
 
-cd client
-
-
-npm install
+  cd client
+  npm install
 
 
 ## Running the Application
 
 - To start the backend server:
 
-In Terminal write:
 
-cd server
-
-node server.js 
+  cd server
+  node server.js 
 
 
 - To start the frontend React application:
 
-In Terminal write:
 
-cd client
-
-npm run start
+    cd client
+    npm run start
 
 
 - The frontend will be available at `http://localhost:3000`, and the backend will be at `http://localhost:3001`.
