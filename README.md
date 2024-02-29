@@ -25,7 +25,7 @@ Follow these steps to get your development environment running:
 Clone the repository:
 
 git clone (https://github.com/thanoskour/React-Node-App)
-/ncd React-Node-App
+cd React-Node-App
 
 
 ### Backend Setup
@@ -34,7 +34,10 @@ Navigate to the backend directory and install dependencies:
 
 
 In Terminal write:
+
 cd server
+
+
 npm install
 
 ### Frontend Setup
@@ -42,7 +45,10 @@ npm install
 Navigate to the frontend directory in a separate terminal window and install dependencies:
 
 In Terminal write:
+
 cd client
+
+
 npm install
 
 
@@ -51,14 +57,20 @@ npm install
 To start the backend server:
 
 In Terminal write:
+
 cd server
+
+
 node server.js 
 
 
 To start the frontend React application:
 
 In Terminal write:
+
 cd client
+
+
 npm run start
 
 
