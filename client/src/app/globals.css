@@ -48,7 +48,7 @@ body {
 
 /* Style for the entire page */
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, sans-serif;
   background-color: #fffefe;
   display: flex;
   justify-content: center;
@@ -62,22 +62,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center the cards */
-  gap: 20px; /* Space between the cards */
+  gap: 5px; /* Space between the cards */
 }
 
 .house {
-  min-height: 160px;
-  margin: 10px 0;
+  min-height: 140px;
+  margin: 5px 0;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  width: 500px; /* Set a fixed width */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  width: 400px; /* Set a fixed width */
+  gap: 10px; /* Space between content */
   background: #fff;
   position: relative; /* For absolute positioning of children */
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Align content to the left */
-  gap: 10px; /* Space between content */
   padding-bottom: 10px; /* Space at the bottom for the founder's name */
 }
 
@@ -109,7 +110,7 @@ body {
 }
 .house-name {
   position: absolute;
-  top: 20px;
+  top: 15px;
   left: 20px;
   font-weight: bold;
   font-size: 1.5rem;
@@ -118,15 +119,15 @@ body {
 
 .house-animal {
   position: absolute;
-  top: 25px;
+  top: 20px;
   right: 20px;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   z-index: 2; /* Above the bar */
 }
 
 .house-founder {
   position: absolute;
-  bottom: 25px;  /* Position above the bottom padding */
+  bottom: 20px;  /* Position above the bottom padding */
   left: 20px; /* Align with left padding */
   font-weight: normal;
   z-index: 2; /* Above the bar */
