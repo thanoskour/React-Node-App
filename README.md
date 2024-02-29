@@ -24,6 +24,7 @@ Follow these steps to get your development environment running:
 Clone the repository:
 
 git clone (https://github.com/thanoskour/React-Node-App)
+
 cd React-Node-App
 
 
@@ -34,6 +35,7 @@ cd React-Node-App
 
 
   cd server
+  
   npm install
 
 ### Frontend Setup
@@ -42,6 +44,7 @@ cd React-Node-App
 
 
   cd client
+  
   npm install
 
 
@@ -51,6 +54,7 @@ cd React-Node-App
 
 
   cd server
+  
   node server.js 
 
 
@@ -58,6 +62,7 @@ cd React-Node-App
 
 
     cd client
+  
     npm run start
 
 
