@@ -25,7 +25,7 @@ Follow these steps to get your development environment running:
 Clone the repository:
 
 git clone (https://github.com/thanoskour/React-Node-App)
-cd React-Node-App
+/ncd React-Node-App
 
 
 ### Backend Setup
