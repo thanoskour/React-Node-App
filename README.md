@@ -30,7 +30,7 @@ cd React-Node-App
 
 ### Backend Setup
 
--Navigate to the backend directory and install dependencies:
+- Navigate to the backend directory and install dependencies:
 
 
 In Terminal write:
@@ -42,7 +42,7 @@ npm install
 
 ### Frontend Setup
 
--Navigate to the frontend directory in a separate terminal window and install dependencies:
+- Navigate to the frontend directory in a separate terminal window and install dependencies:
 
 In Terminal write:
 
@@ -54,7 +54,7 @@ npm install
 
 ## Running the Application
 
--To start the backend server:
+- To start the backend server:
 
 In Terminal write:
 
@@ -63,7 +63,7 @@ cd server
 node server.js 
 
 
--To start the frontend React application:
+- To start the frontend React application:
 
 In Terminal write:
 
@@ -72,7 +72,7 @@ cd client
 npm run start
 
 
--The frontend will be available at `http://localhost:3000`, and the backend will be at `http://localhost:3001`.
+- The frontend will be available at `http://localhost:3000`, and the backend will be at `http://localhost:3001`.
 
 ## Tech Stack
 
