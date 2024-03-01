@@ -26,7 +26,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3001/houses')
+    fetch('https://wizard-world-api.herokuapp.com/houses')
       .then((res) => res.json())
       .then((data) => {
         setData(data);

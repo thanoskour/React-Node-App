@@ -14,7 +14,10 @@ app.get('/houses', async (req, res) => {
 
     // Apply your filtering logic here
     const { name } = req.query;
-    const filteredHouses = name ? houses.filter(house => house.name.includes(name)) : houses;
+    
+    const filteredHouses = name 
+      ? houses.filter(house => house.name.toLowerCase().includes(name.toLowerCase()))
+      : houses;
 
     res.json(filteredHouses); // Send the filtered data back as JSON
   } catch (error) {
