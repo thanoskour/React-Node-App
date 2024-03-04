@@ -48,7 +48,7 @@ cd React-Node-App
   npm install
 
 
-## Running the Application
+## Running the Application locally
 
 - To start the backend server:
 
